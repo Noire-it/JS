@@ -1,0 +1,12 @@
+body {
+    background-color: #333333;
+    color: #fff;
+}
+
+.dif {
+    display: flex;
+}
+
+button {
+    width: 4rem;
+}
