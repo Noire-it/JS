@@ -1,0 +1,27 @@
+.dif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 1rem;
+    background-color: hsl(203, 23%, 48%);
+    color: white;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.display {
+    height: 65vh;
+    overflow-y: auto;
+    background-color: hsl(203, 23%, 48%);
+    color: white;
+}
+
+p {
+    background-color: hsl(203, 65%, 54%);
+    width: max-content;
+    border-radius: 1rem;
+    padding: 1rem;
+}
