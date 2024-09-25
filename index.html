@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dif">
+        <header>
+            <h1>Pseudo blog</h1>
+            <form action="">
+                <fieldset>
+                    <legend>Nowy Wpis</legend>
+                    <label for="articleName">tytuł artykułu: <input type="text" name="articleName" id="articleName"></label><br>
+                    <label for="articleFill">treść artykułu: <textarea name="articleFill" id="articleFill" rows="5" cols="21"></textarea></label><br>
+                    <label for="author">autor artykułu: <input type="text" name="author" id="author"></label><br>
+                    <label for="trailer">czy jest zajawką? <input type="checkbox"></label><br>
+                    <button>Dodaj</button>
+                    <button>Czyść</button>
+                </fieldset>
+            </form>
+        </header>
+        <main>
+            <div class="article"></div>
+            <div class="trailer"></div>
+        </main>
+        <footer>
+            <h3>&copy Dawid Z. 2024</h3>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
